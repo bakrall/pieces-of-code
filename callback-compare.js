@@ -6,12 +6,8 @@
 	}
 
 	function logResult(result) {
-		if (result) {
-			console.log("greater");
-		} else {
-			console.log("smaller");
-		}
+		result ? console.log("greater") : console.log("smaller");
 	}
 
-	compare(5,3,logResult);
+	compare(5, 3, logResult);
 })();
