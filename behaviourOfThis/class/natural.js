@@ -4,6 +4,7 @@ class Car {
     }
 
     drive() {
+    	console.log(this);
         return this.sound;
     }
 }
